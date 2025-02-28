@@ -1,0 +1,708 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav-bar {
+    background-color: white;
+    color: white;
+    display: flex center;
+    justify-content: center;
+    align-items: center;
+    padding:60px 20px;
+}
+.logo-img {
+    width: 410px;
+    height: 65px;
+    display: block;
+    margin:auto;
+    margin-bottom: 80px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around; /*Distribuye los elementos uniformemente*/
+    font-family: Century Gothic; /*tipografía*/
+}
+.nav-links li {
+    margin-left: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding:8px 40px; /* Para el tamaño del espacio del link (background tamaño) */
+    border-radius: 2px; /* para redondear las esquinas del fondo rosa del menú */
+}
+/*a:hover para cuando pasa el cursor por encima de las opciones del menú y cambia a rosa.*/
+.nav-links a:hover {
+    background-color: #facece; /* Cambia el fondo a ROSA al pasar el cursor */
+    color: #414040; /*Cambio de color de la letra cuando se pone el cursor (color medio gris)*/
+}
+/*a:active se activa cuando se está haciendo click sobre el enlace*/
+.nav-links a:active {
+    background-color: #D17D98; /* Cambia el fondo a un ROSA más oscuro al darle click */
+}
+.content-tu-espacio {
+    padding: 20px; /*tamaño del contenedor*/
+    text-align: center;
+}
+HR{
+    background-color: black;
+    border: 0;
+    height: 0.5px; /*grosor de la línea*/
+}
+/*Imagen tu espacio*/
+.img-tu-espacio{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    margin:auto;
+    float: right;
+    margin-top: -110px;
+}
+h1{
+    font-family: Candara;
+}
+p{
+    font-family: Candara;
+    font-size: x-large;
+}
+#text-analisis{
+    text-align: left;
+    margin-top: -40px; /*para que la imagen este más arriba*/
+    margin-left: 90px; /*para mover la img a la derecha*/
+    line-height: 0.5em;
+}
+.barra-rosa{
+    width: 70px;
+    height: 480px;
+    float: left;
+    margin-top: -100px;
+}
+.img-num{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+#img-uno{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    float: left;
+    margin-left: 30px;
+}
+#img-dos{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin-left: 100px; 
+    float: left;
+}
+#img-tres{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin-left: 170px;
+    float: left;
+}
+/*text tu espacio*/
+.img-num h4{
+    font-family: Candara;
+    font-size:23px;
+    color: black;
+    display: flex;
+    transform: translate(25px); /*Para mover el texto de la imagen*/
+}
+.text-uno{
+    text-align: left;
+}
+.text-dos{
+    text-align: left;
+}
+.text-tres{
+    text-align: left;
+
+}
+.empezar-button{
+    border-radius: 50px;
+    margin-top: 25px;  
+    padding: 15px 50px;  
+    background-color: #FFE2E2; /* Fondo botton a rosa */  
+    color: #DE3163; /* Texto rosa fuerte */  
+    border: none;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 100px;  
+    cursor: pointer;
+}
+.empezar-button:hover {  
+    background-color: #FFB4C2; /* Cambia a rosa oscuro al pasar */  
+}
+/*Contacto y recomendaciones*/
+.recos {  
+    display: flex;  
+    justify-content: space-around;  
+    padding: 0px 20px; /* Espaciado adicional para la sección */  
+}  
+.columna {  
+    width: 30%; /* Ancho de cada columna */  
+    text-align: center;  
+} 
+.columna-img {  
+    width: 100%; /* Adaptar al ancho de la columna */  
+    height: auto; /* Mantiene la proporción */  
+    border-radius: 10px; /* Bordes redondeados para las fotos */  
+}  
+.recos h3 {  
+    font-size: 1.5rem; /* Ajusta el tamaño del título */  
+    margin: 10px 0; /* espaciado alrededor del título */  
+}  
+.contact h3 {  
+    font-size: 1.5rem; /* Ajusta el tamaño del título */  
+    margin: 10px 0; /* espaciado alrededor del título */  
+} 
+.Ver-mas {  
+    display: inline-block;  
+    margin-top: 10px;  
+    padding: 10px 20px;  
+    background-color: #facece; /* Color de fondo rosa */  
+    color: #414040; /* Color del texto */  
+    border-radius: 5px; /* bordes redondeados */  
+    text-decoration: none; /* sin subrayado */  
+}  
+.Ver-mas:hover {  
+    background-color: #D17D98; /* fondo al pasar el cursor */  
+}
+/*contacto*/
+.contact {  
+    padding: 40px 20px;  
+    text-align: center;  
+    font-family: sans-serif;  
+}  
+.contact h2 {  
+    margin-bottom: 20px;  
+}  
+.contact-info {  
+    display: flex;  
+    flex-direction: column;  
+    margin-bottom: 30px;  
+}  
+.left{
+    float: left;
+    margin-left: 100px;
+}
+.right{
+    float: right;
+    margin-right: 100px;
+}
+.info-item {  
+    margin: 15px 0;  
+}  
+.info-item h3 {  
+    margin-bottom: 5px;  
+    color: #D17D98; /* Rosa claro para los títulos */  
+}  
+.info-item p {  
+    margin: 0;  
+    color: #414040;  
+}  
+.social-link {  
+    margin: 0 10px;  
+    color: rgb(0, 0, 0);  
+    text-decoration: none;  
+}  
+.social-link:hover {  
+    color: #D17D98;  
+}  
+.contact-form {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+.contact-form label {  
+    margin-top: 10px;  
+}  
+.contact-form input,   
+.contact-form textarea {  
+    width: 80%;  
+    padding: 10px;  
+    margin-top: 5px;  
+    border: 2px solid #facece; /* Borde rosa */  
+    border-radius: 5px;  
+}  
+.contact-form input:focus,   
+.contact-form textarea:focus {  
+    border-color: #D17D98; /* Rosa oscuro en el foco */  
+}  
+.submit-button {  
+    margin-top: 20px;  
+    padding: 10px 20px;  
+    background-color: #D17D98; /* Fondo rosa */  
+    color: white; /* Texto blanco */  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+.submit-button:hover {  
+    background-color: #facece; /* Cambia a rosa claro al pasar */  
+}
+.banner-container {  
+    width: 100%; /* Ancho completo */  
+    overflow: hidden; /* Ocultar cualquier desbordamiento */  
+}  
+.banner-image {  
+    width: 100%; /* Ancho completo del contenedor */  
+    height: auto; /* Mantiene la proporción de la imagen */  
+}
+
+
+/*CAMBIAR TAMAÑO LABEL EMAIL*/
+#email {
+    height: 20px;
+    width: 500px;
+}
+#name{
+    height: 20px;
+    width: 500px;
+}
+#message{
+    height: 20px;
+    width: 500px;
+}
+
+
+/*footer*/
+footer {
+    background-color: #df5c6e; /* Color de fondo principal */
+    color: #ffd1d7;
+    padding: 20px 0px;
+    font-family: sans-serif;
+    /*para que el footer este en la parte de abajo*/
+    /*position: absolute;*/
+    width: 100%;
+    bottom: 0;
+}
+footer h3{
+    font-size:larger;
+    color: #ffd1d7;
+    font-family: sans-serif;
+}
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.logo img {
+    width: 300px; /* Ajusta el tamaño del logo */
+    margin-bottom: 10px;
+}
+.acerca p{
+    font-family: arial;
+    font-size: medium;
+}
+.atencion ul {
+    padding: 0.5;
+    font-family: arial;
+    font-size: medium;
+}
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño de los iconos */
+    margin-right: 10px;
+}
+.derechos-reservados {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #df6f81; /* Color de fondo para el copyright */
+    color: #ffd1d7;
+    padding: 10px 0;
+}
+.derechos-reservados p{
+    font-family: arial;
+    font-weight: bold;
+    font-size: medium;
+}
+
+/*Index y productos*/
+.content-index {
+    padding: 20px; /*tamaño del contenedor*/
+    text-align: center;
+}
+.content-productos {
+    padding: 20px; /*tamaño del contenedor*/
+    text-align: center;
+}
+.Productos{
+    position: absolute; /* Permite mover el texto libremente */
+    top: 230px; /* Distancia desde la parte superior */
+    left: 420px;
+    color: #df5c6e;
+    font-size: 36px; /* Tamaño del texto */
+    font-family: Cambria;
+    padding: 10px;
+    font-weight: bold;
+}
+.Limpiador {
+    position: absolute; /* Permite mover el texto libremente */
+    top: 290px; /* Distancia desde la parte superior */
+    left: 10px; 
+    width: 990px; 
+    height: -100px;
+    /* Distancia desde la izquierda */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-color:#ffd1d7; /* Fondo semitransparente para el texto */
+    padding: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 13px;
+    
+}
+
+.sana {
+    position: absolute;
+    top: 305px; /* Mueve la imagen 110px hacia abajo */
+    right: 270px; /* Mueve la imagen 290px hacia la derecha */
+    width: 10px;
+    height: 30px;
+}
+.imagen1 {
+    position: absolute;
+    top: 390px; /* Mueve la imagen 110px hacia abajo */
+    right: 970px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;
+}
+.imagen2 {
+    position: absolute;
+    top: 440px; /* Mueve la imagen 110px hacia abajo */
+    right: 810px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: 90px ;     
+}
+.imagen3 {
+    position: absolute;
+     top: 475px; /* Mueve la imagen 110px hacia abajo */
+     right: 600px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: 90px ;     
+}
+.imagen4 {
+    position: absolute;
+    top: 400px; /* Mueve la imagen 110px hacia abajo */
+    right: 360px; /* Mueve la imagen 290px hacia la derecha */
+    width: -150px;
+    height: 90px ; 
+}
+.Hidratante {
+    position: absolute; /* Permite mover el texto libremente */
+    top: 710px; /* Distancia desde la parte superior */
+    left: 10px; 
+    width: 990px; 
+    height: -100px;
+    /* Distancia desde la izquierda */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-color:#ffd1d7; /* Fondo semitransparente para el texto */
+    padding: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 13px;
+    
+}
+.sanaydahyun {
+    position: absolute;
+     top: 760px; /* Mueve la imagen 110px hacia abajo */
+     right: 275px; /* Mueve la imagen 290px hacia la derecha */
+    width: 30px;
+    height: 30px ;    
+}
+.imagen5 {
+    position: absolute;
+    top: 870px; /* Mueve la imagen 110px hacia abajo */
+    right: 1005px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;     
+}
+.imagen6 {
+    position: absolute;
+    top: 880px; /* Mueve la imagen 110px hacia abajo */
+    right: 770px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;     
+}
+.imagen7 {
+    position: absolute;
+    top: 915px; /* Mueve la imagen 110px hacia abajo */
+    right: 580px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: 90px ;     
+}
+.imagen8 {
+    position: absolute;
+    top: 900px; /* Mueve la imagen 110px hacia abajo */
+    right: 360px; /* Mueve la imagen 290px hacia la derecha */
+    width: -150px;
+    height: 90px ;     
+}
+.Exfoliante {
+    position: absolute; /* Permite mover el texto libremente */
+    top: 1100px; /* Distancia desde la parte superior */
+    left: 10px; 
+    width: 990px; 
+    height: -100px;
+    /* Distancia desde la izquierda */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-color:#ffd1d7; /* Fondo semitransparente para el texto */
+    padding: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 13px;
+    
+}
+.wonyoung {
+    position: absolute;
+    top: 1140px; /* Mueve la imagen 110px hacia abajo */
+    right: 270px; /* Mueve la imagen 290px hacia la derecha */
+    width: 30px;
+    height: 30px ;   
+}
+.imagen9 {
+    position: absolute;
+    top: 1300px; /* Mueve la imagen 110px hacia abajo */
+    right: 990px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;    
+}
+.imagen10 {
+    position: absolute;
+    top: 1250px; /* Mueve la imagen 110px hacia abajo */
+    right: 740px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: 90px ;    
+}
+.imagen11 {
+    position: absolute;
+    top: 1300px; /* Mueve la imagen 110px hacia abajo */
+    right: 620px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: 90px ;     
+}
+.imagen12 {
+    position: absolute;
+    top: 1310px; /* Mueve la imagen 110px hacia abajo */
+    right: 370px; /* Mueve la imagen 290px hacia la derecha */
+    width: -150px;
+    height: 90px ;    
+}
+.Mascarilla {
+    position: absolute; /* Permite mover el texto libremente */
+    top: 1500px; /* Distancia desde la parte superior */
+    left: 10px; 
+    width: 990px; 
+    height: -100px;
+    /* Distancia desde la izquierda */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-color:#ffd1d7; /* Fondo semitransparente para el texto */
+    padding: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 13px;
+}
+.irene {
+    position: absolute;
+    top: 1550px; 
+    right: 270px; /* Mueve la imagen 290px hacia la derecha */
+    width: 30px;
+    height: 30px ; 
+}
+.imagen13 {
+    position: absolute;
+    top: 1660px; 
+    right: 1000px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;    
+}
+.imagen14 {
+    position: absolute;
+    top: 1650px; 
+    right: 780px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: 90px ;
+    
+}
+.imagen15 {
+    position: absolute;
+    top: 1650px; 
+    right: 560px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: 90px ;    
+}
+.imagen16 {
+    position: absolute;
+    top: 1670px; 
+    right: 370px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: 90px ;     
+}
+.flecha {
+    position: absolute;
+    top: 500px; 
+    right: 1190px;
+    width: -90px;
+    height: -90px ;    
+}
+.flecha1 {
+    position: absolute;
+    top: 500px; 
+    right: 380px; /* Mueve la imagen 290px hacia la derecha */
+    width: -150px;
+    height: 90px      
+}
+.flecha2 {
+    position: absolute;
+    top: 950px; /* Mueve la imagen 110px hacia abajo */
+    right: 1200px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;     
+}
+.flecha3 {
+    position: absolute;
+    top: 950px; /* Mueve la imagen 110px hacia abajo */
+    right: 320px; /* Mueve la imagen 290px hacia la derecha */
+    width: -150px;
+    height: 90px ;     
+}
+.flecha4 {
+    position: absolute;
+    top: 1350px; /* Mueve la imagen 110px hacia abajo */
+    right: 1210px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;    
+}
+.flecha5 {
+    position: absolute;
+    top: 1350px; /* Mueve la imagen 110px hacia abajo */
+    right: 310px; /* Mueve la imagen 290px hacia la derecha */
+    width: -150px;
+    height: 90px ;
+}
+.flecha6 {
+    position: absolute;
+    top: 1730px; /* Mueve la imagen 110px hacia abajo */
+    right: 1190px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;
+}
+.flecha7 {
+    position: absolute;
+    top: 1730px; /* Mueve la imagen 110px hacia abajo */
+    right: 320px; /* Mueve la imagen 290px hacia la derecha */
+    width: -150px;
+    height: 90px ;     
+}
+.borde {
+    border-radius: 40%;         
+}
+.menu img {
+    width: 1250px;
+    height: 200px;
+    display: block;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 120px;
+    display: flex;
+}
+.Vendido {
+    position: absolute; /* Permite mover el texto libremente */
+    top: 440px; /* Distancia desde la parte superior */
+    left: 10px;
+    color: black;
+    font-size: 23px; /* Tamaño del texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    font-weight: bold;
+}
+.imagen17 {
+    position: absolute;
+    top: 580px; /* Mueve la imagen 110px hacia abajo */
+    right: 1020px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ; 
+}
+.imagen18 {
+    position: absolute;
+    top: 580px; /* Mueve la imagen 110px hacia abajo */
+    right: 800px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;    
+}
+.imagen19 {
+    position: absolute;
+    top: 580px; /* Mueve la imagen 110px hacia abajo */
+    right: 560px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;     
+}
+.imagen20 {
+    position: absolute;
+    top: 610px; /* Mueve la imagen 110px hacia abajo */
+    right: 290px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;     
+}
+.imagen21 {
+    position: absolute;
+    top: 580px; /* Mueve la imagen 110px hacia abajo */
+    right: 10px; /* Mueve la imagen 290px hacia la derecha */
+    width: -90px;
+    height: -90px ;
+}
+.flecha8 {
+    position: absolute;
+    top: 650px; /* Mueve la imagen 110px hacia abajo */
+    right: 50px; /* Mueve la imagen 290px hacia la derecha */
+    width: -150px;
+    height: 90px;
+}
+.contenido-lo-mas-vendido img{
+    justify-content: space-around;
+    display: flex;
+    margin-top: -70px;
+}
+.content-index h6{
+    justify-content: space-around;
+    display: flex;
+}
+
+#contenidoC{
+    width: 1200px;
+    height: 700px;
+}
+#contenidoCx{
+    width: 1200px;
+    height: 1700px;
+}
